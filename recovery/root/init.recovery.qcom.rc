@@ -85,7 +85,6 @@ on boot
 
 on init
     start hwservicemanager
-    start boot-1-0
     setprop crypto.ready 1
 
 on property:crypto.ready=0
